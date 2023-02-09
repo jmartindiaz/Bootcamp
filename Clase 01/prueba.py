@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def entero_a_binario_1_2(numero):
         num_bin = ""
         count=0
@@ -44,3 +45,18 @@ entero_a_binario_1_2(1)
         # lista_binarios.reverse()
         # num_binario=''.join(lista_binarios)
 # return int(num_binario)
+=======
+numero = 3
+num_bin = ""
+cociente = 1
+i = 0
+while (type(numero) == int and numero >= 0 and cociente != 0):
+        cociente = numero//2 # es una variable auxiliar que me ayuda a frenar el bucle while
+        numero //= 2
+        caracter_bin = str(numero%2)
+        num_bin+=caracter_bin
+        i+=1
+num_bin = num_bin[::-1] #invierto la cadena
+print (num_bin)
+
+>>>>>>> 71db5b4f60e313d6385e3554953c1a1146b640e5
