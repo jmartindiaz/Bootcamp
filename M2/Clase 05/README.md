@@ -186,7 +186,7 @@ Lo anterior no implica que una base de datos transaccional no se puedan consulta
 Para abordar este tipo de problemas, se crearon herramientas tales como Datamarts, Datawarehouse o Datalake. Que permiten un repositorio centralizado de datos orientados a la analítica. Estos conceptos han evolucionado en la actualidad para converger en el concepto como el de Datamesh. Más adelante en módulo 3, exploraremos en detalle cada uno.
 
 
-## Rceursos adicionales
+## Recursos adicionales
 
 * [Modelo entidad-relación](https://www.youtube.com/watch?v=Vu5x95UTD80)
 
@@ -217,7 +217,7 @@ Crear un modelo relacional basado en el modelo de negocios de Henry:
 3. Definir los tipos de datos.
 
 La entidades a modelar junto sus atributos son: <br>
-* Carrea: ID, Nombre.<br>
+* Carrera: ID, Nombre.<br>
 * Cohorte: ID, Código, Carrera, Fecha de Inicio, Fecha de Finalización, Instructor.<br>
 * Instructores: ID, Cédula de identidad, Nombre, Apellido, Fecha de Nacimiento, Fecha de Incorporación.<br>
 * Alumnos: ID, Cédula de identidad, Nombre, Apellido, Fecha de Nacimiento, Fecha de Ingreso, Cohorte.<br>
