@@ -1,0 +1,8 @@
+#### SETTINGS ####
+SELECT @@global.secure_file_priv;
+SET GLOBAL local_infile=1;
+SET SQL_SAFE_UPDATES = 0;
+SET FOREIGN_KEY_CHECKS=0;
+SET SESSION group_concat_max_len = 10000;
+SET GLOBAL local_infile = true;
+SHOW GLOBAL VARIABLES LIKE 'local_infile';

@@ -1,0 +1,2 @@
+-- crear trigger para llenar los datos de auditoria
+-- CREATE TRIGGER  investigar
